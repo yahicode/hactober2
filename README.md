@@ -1,4 +1,4 @@
-# Hacktober2
-Hi, This is Mayank 
+# hactoberfest 2k19]
 
-Hi, This is Gaurav Agrawal.(https://github.com/gaurav-ag10)
+Hi, This is Mayank 
+Hi, This is Gaurav Agrawal.
