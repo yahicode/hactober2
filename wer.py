@@ -1,2 +1,3 @@
-print('hk2br')
-print('HacktoberFest')
+name = input("Name: ")
+
+print("Hi %s, welcome to hk2br!" %name)
