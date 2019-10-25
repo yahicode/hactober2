@@ -1,5 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main(){
-    printf("Hi Hacktober 2\n");
+void main() {
+    int n;
+    scanf("%d",&n);
+    printf("Hi Hacktober", n, "\n");
 }
