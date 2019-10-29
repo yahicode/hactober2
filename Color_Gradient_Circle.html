@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Gradient</title>
+    <link rel="stylesheet" href="Color Gradient.css">
+    <style>
+        body{
+        background:rgb(37, 35, 35);
+        display: flex;
+        }
+
+        #box-1{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin: 200px auto;
+        border-radius: 50%;
+        background-image: linear-gradient(red,orange,yellow,green,blue,indigo, violet);
+        }
+
+        #box-1:hover{
+        animation: animate 0.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes animate{
+        0%{
+        transform: rotate(0deg);
+        }
+        100%{
+        transform: rotate(360deg);
+        }
+        }
+
+        #box-1 span{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: linear-gradient(red,orange,yellow,green,blue,indigo, violet);
+        }
+
+        #box-1 span:nth-child(1)
+        {
+        filter: blur(10px);
+        }
+
+        #box-1 span:nth-child(2)
+        {
+        filter: blur(30px);
+        }
+
+        #box-1 span:nth-child(3)
+        {
+        filter: blur(100px);
+        }
+
+        #box-1 span:nth-child(4)
+        {
+        filter: blur(200px);
+        }
+
+        #box-2{
+        position: relative;
+        width:200px;
+        height:200px;
+        top:50px;
+        left: 50px;
+        border-radius: 50%;
+        background-color: rgb(37, 35, 35);;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <div id="box-2"></div>
+    </div>
+</body>
+</html>
