@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 int main() {
-    int a, b, c;
+    int a, b, c; //Initialising the data type to the variables
     for(a = 1; a <= 3; a++){
         for(b = 1; b <= 3; b++){
             for(c = 1; b <= 3; c++){
                 if( b != a && c != a && c != b){
-                    printf("%d, %d, %d\n", a, b, c);
+                    printf("%d, %d, %d\n", a, b, c); //Printing the results
                 }
             }
         }
