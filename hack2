@@ -1,1 +1,10 @@
-Hi
+import <stdio.h>
+main(){
+  int a;
+  printf("Enter any number\n"); // Inputing a number
+  scanf("%d",&a);
+    if(a%2==0)
+      printf("Hi");
+     else
+      printf(" Hello\n");
+      }
