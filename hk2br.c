@@ -1,7 +1,5 @@
-#include <stdio.h>
-
-void main() {
-    int n;
-    scanf("%d",&n);
-    printf("Hi Hacktober", n, "\n");
+#include<stdio.h>
+void main(){
+printf("Hi Hacktober 2\n");
+printf("Hey Hacktoberfest 2019\n");
 }
