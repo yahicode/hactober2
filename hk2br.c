@@ -1,7 +1,1 @@
-#include <stdio.h>
-
-void main() {
-    int n;
-    scanf("%d",&n);
-    printf("Hi Hacktober", n, "\n");
-}
+printf("Hi Hacktober 2\n");
