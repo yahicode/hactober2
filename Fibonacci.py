@@ -1,4 +1,4 @@
-def F(n1): 
+def Fibona(n1): 
     if n1<0: 
         print("Incorrect input") 
     
@@ -8,6 +8,4 @@ def F(n1):
     elif n1==2: 
         return 1
     else: 
-        return F(n1-1)+F(n1-2) 
-    
-    F(5)
+      return Fibona(n1-1)+Fibona(n1-2) 
