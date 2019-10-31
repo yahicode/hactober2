@@ -1,25 +1,13 @@
-fibonacci_cache = {}
-
-
-def fibonacci(N):
-    # If Nth fibonacci number is present or not
-    if N in fibonacci_cache:
-        return fibonacci_cache[N]
-
-    # Compute the Nth fibonacci number
-    if N == 1:
-        value = 0
-    elif N == 2:
-        value = 1
-    elif N > 2:
-        value = fibonacci(N - 1) + fibonacci(N - 2)
-
-    # cache the value and return the value
-    fibonacci_cache[N] = value
-    return value
-
-
-for N in range(1, 10001):
-    fibonacci(N)
-    print(N, "\t:\t", str(fibonacci_cache[N]))
-
+def Fibona(n1): 
+    if n1<0: 
+        print("Incorrect input") 
+    
+    elif n1==1: 
+        return 0
+    
+    elif n1==2: 
+        return 1
+    else: 
+        return Fibona(n1-1)+Fibona(n1-2) 
+    
+    Fibona(9)
