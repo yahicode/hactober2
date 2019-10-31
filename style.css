@@ -76,4 +76,8 @@ a:hover {
 a:active {
   color: teal;
 }
-    \
+
+body{
+    color:red;
+}
+
