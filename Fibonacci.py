@@ -8,6 +8,4 @@ def Fibona(n1):
     elif n1==2: 
         return 1
     else: 
-        return Fibona(n1-1)+Fibona(n1-2) 
-    
-    Fibona(9)
+      return Fibona(n1-1)+Fibona(n1-2) 
